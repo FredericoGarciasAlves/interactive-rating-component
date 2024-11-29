@@ -1,0 +1,9 @@
+:root {
+    --body-color: #1e1e1e;
+    --section-gradient-top: rgba(35, 42, 52, 0.2);
+    --section-gradient-bottom: rgba(24, 30, 39, 1);
+    --color-number-button-action: #262e38;
+    --color-number: #969fad;
+    --color-button: #fc7614;
+    --color-button-select: #ffffff;
+}

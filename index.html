@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="variable.css" />
+        <link rel="stylesheet" href="responsive.css" />
+        <title>Interactive-rating-component</title>
+    </head>
+    <body>
+        <section class="main" id="main">
+            <div class="icon">
+                <img
+                    src="./assets/icons/Star.png"
+                    alt="Icone de uma estrela"
+                    class="img-icon"
+                />
+            </div>
+            <h1 class="title">How did we do?</h1>
+            <p class="text-suport">
+                Please let us know we did with your support request. All
+                feedback is appreciated to help us improve our offering!
+            </p>
+            <form id="form">
+                <div class="box-inputs">
+                    <input
+                        type="button"
+                        value="1"
+                        class="inputs"
+                        id="choice-one"
+                    />
+                    <input
+                        type="button"
+                        value="2"
+                        class="inputs"
+                        id="choice-two"
+                    />
+                    <input
+                        type="button"
+                        value="3"
+                        class="inputs"
+                        id="choice-three"
+                    />
+                    <input
+                        type="button"
+                        value="4"
+                        class="inputs"
+                        id="choice-four"
+                    />
+                    <input
+                        type="button"
+                        value="5"
+                        class="inputs"
+                        id="choice-five"
+                    />
+                </div>
+                <button type="submit" class="btn-submit">SUBMIT</button>
+            </form>
+        </section>
+        <section class="box-choice" id="box-choice" style="display: none">
+            <div class="box-flex">
+                <img src="./assets/phone.png" alt="" class="phone" />
+                <p class="select-choice" id="select-choice"></p>
+                <h1 class="b-c-title">Thank you!</h1>
+                <p class="b-c-text">
+                    We appreciate you taking the time to give a rating. If you
+                    ever need more support, don’t hesitate to get in touch!
+                </p>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+</html>

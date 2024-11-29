@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-color);
+}
+
+.main {
+    background: linear-gradient(
+        to bottom,
+        var(--section-gradient-top),
+        var(--section-gradient-bottom)
+    );
+    width: 41.2rem;
+    height: 41.6rem;
+    padding: 3.55rem;
+    font-family: "Overpass", sans-serif;
+    border-radius: 3rem;
+}
+
+.main .icon {
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: var(--color-number-button-action);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.main .title {
+    font-size: 2.65rem;
+    color: var(--color-button-select);
+    margin-top: 3.2rem;
+}
+
+.main .text-suport {
+    color: var(--color-number);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+
+.main #form .box-inputs {
+    display: flex;
+    column-gap: 2.1rem;
+    margin-top: 2.1rem;
+}
+
+.main #form .box-inputs .inputs {
+    width: 5.1rem;
+    height: 5.1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--color-number);
+    background-color: var(--color-number-button-action);
+    border: none;
+}
+
+.main #form .box-inputs .inputs:hover {
+    background-color: var(--color-button);
+    color: var(--color-number-button-action);
+    transition: ease-in-out 0.5s;
+}
+
+.main #form .btn-submit {
+    width: 34rem;
+    height: 4.5rem;
+    background-color: var(--color-button);
+    border-radius: 3rem;
+    border: none;
+    margin-top: 3.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.main #form .btn-submit:hover {
+    background-color: var(--color-button-select);
+    color: var(--color-number-button-action);
+    transition: ease-in-out 0.5s;
+}
+
+.box-choice {
+    width: 41.2rem;
+    height: 41.6rem;
+    background: linear-gradient(
+        to bottom,
+        var(--section-gradient-top),
+        var(--section-gradient-bottom)
+    );
+    font-family: "Overpass", sans-serif;
+    border-radius: 3rem;
+
+    padding: 45px 36px;
+}
+
+.box-choice .box-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-choice .box-flex .select-choice {
+    color: var(--color-button);
+    height: 32px;
+    width: 193px;
+    border-radius: 30px;
+    background-color: var(--color-number-button-action);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
+}
+
+.box-choice .box-flex .b-c-title {
+    font-size: 33px;
+    color: var(--color-button-select);
+    margin-top: 32px;
+}
+
+.box-choice .box-flex .b-c-text {
+    font-size: 1.5rem;
+    color: var(--color-number);
+    text-align: center;
+    line-height: 20px;
+    margin-top: 7px;
+}
+
+.main #form .box-inputs .select {
+    color: var(--color-number-button-action);
+    background-color: var(--color-button-select);
+}

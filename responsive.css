@@ -1,0 +1,66 @@
+@media (max-width: 375px) {
+    .main {
+        width: 32.7rem;
+        height: 36rem;
+        padding: 24px;
+    }
+
+    .main .icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .main .title {
+        font-size: 2.5rem;
+        margin-top: 16px;
+    }
+
+    .main .text-suport {
+        font-size: 1.4rem;
+        margin-top: 17px;
+    }
+
+    .main #form .box-inputs {
+        margin-top: 24px;
+    }
+    .main #form .box-inputs .inputs {
+        width: 42px;
+        height: 42px;
+    }
+
+    .main #form .btn-submit {
+        margin-top: 24px;
+        width: 280px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+
+    .box-choice {
+        width: 330px;
+        height: 360px;
+        padding: 34px 24px;
+    }
+
+    .box-choice .box-flex .phone {
+        width: 145px;
+        height: 96px;
+    }
+
+    .box-choice .box-flex .select-choice {
+        font-size: 15px;
+        margin-top: 24px;
+    }
+
+    .box-choice .box-flex .b-c-title {
+        font-size: 25px;
+        margin-top: 24px;
+    }
+
+    .box-choice .box-flex .b-c-text {
+        font-size: 14px;
+    }
+    .main #form .box-inputs .select {
+        color: var(--color-number-button-action);
+        background-color: var(--color-button-select);
+    }
+}
